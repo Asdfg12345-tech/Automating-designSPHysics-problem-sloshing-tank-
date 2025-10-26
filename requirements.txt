@@ -1,0 +1,7 @@
+# This project is designed to run with CPython 3.10+ on Windows.
+# No external pip packages are required.
+#
+# DualSPHysics, GenCase, and PartVTK executables are external tools and
+# must be installed separately. Paths to those tools must be configured
+# before running the script.
+
