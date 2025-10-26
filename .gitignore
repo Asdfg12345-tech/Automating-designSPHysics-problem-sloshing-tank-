@@ -1,0 +1,41 @@
+# Python cache / metadata
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.bak
+
+# DualSPHysics run artifacts
+*/out/
+*/out/**
+*/logs/
+*/logs/**
+*.bi4
+*.bi2
+*.binx
+*.vtk
+*.csv
+*.zip
+
+# Generated case folders (variants)
+Autoslosh__dp-*/**
+Autoslosh__dp-*/
+
+# Backup XMLs created by the script
+*.preclean.bak
+*_.preclean.bak
+*_Def.xml.bak
+*.xml.bak
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# VSCode / editor configs (optional - keep if you don't want to track your editor)
+.vscode/
+.vscode/**
+.idea/
+*.code-workspace
+
+# System-specific paths
+.DS_Store
